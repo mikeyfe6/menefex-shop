@@ -16,6 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@netlify/functions": "^2.0.2",
     "gatsby": "^5.12.4",
     "gatsby-plugin-google-gtag": "^5.12.0",
     "gatsby-plugin-image": "^3.12.0",
@@ -28,12 +29,14 @@
     "gatsby-transformer-sharp": "^5.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.68.0"
+    "sass": "^1.68.0",
+    "shopify-buy": "^2.20.1"
   },
   "devDependencies": {
-    "@types/node": "^20.3.3",
-    "@types/react": "^18.2.14",
-    "@types/react-dom": "^18.2.6",
-    "typescript": "^5.1.6"
+    "@types/node": "^20.6.5",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@types/shopify-buy": "^2.17.2",
+    "typescript": "^5.2.2"
   }
 }
